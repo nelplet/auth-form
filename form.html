@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Форма авторизации</title>
+    <link href="new.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Авторизация</h1>
+    <form method="get">
+      <input type="email" required="required" placeholder="email" />
+      <br />
+      <input
+        type="password"
+        required="required"
+        minlength="6"
+        maxlength="20"
+        placeholder="password"
+        pattern="^[a-zA-Z0-9]+$"
+      />
+      <br />
+      <button type="submit">Войти</button>
+    </form>
+  </body>
+</html>
